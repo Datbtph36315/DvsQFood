@@ -53,7 +53,7 @@ public class SignIn extends AppCompatActivity {
                 }
 
                 final ProgressDialog mdialog = new ProgressDialog(SignIn.this);
-                mdialog.setMessage("Vui lòng đợi....");
+                mdialog.setMessage("Vui lòng đợi.....");
                 mdialog.show();
 
                 table_user.addListenerForSingleValueEvent(new ValueEventListener() {
