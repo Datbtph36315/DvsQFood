@@ -11,7 +11,7 @@ import com.example.DvsQFood.R;
 
 public class Screen extends AppCompatActivity {
     Button btn_SignIn, btn_SignUp;
-    String dl = "dl new";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
