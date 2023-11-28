@@ -4,8 +4,7 @@ plugins {
 }
 
 android {
-    compileSdkVersion 34
-    buildToolsVersion "30.0.0"
+    compileSdkVersion 33
 
     defaultConfig {
         applicationId "com.example.DvsQFood"
@@ -31,6 +30,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'com.example.DvsQFood'
 }
 
 dependencies {
